@@ -1,0 +1,33 @@
+[
+    {
+        "title":"Django 3- Python de cero (Ajax+Json+SQL Server+Bootstrap 5)",
+        "Image":"certifications/CertiDjango.jpg",
+        "link":"https://www.udemy.com/certificate/UC-da34e453-5d8f-469c-a57b-1acb785e5a79/"
+    },
+    {
+        "title":"SQL: Consultas básicas a complejas",
+        "Image":"certifications/CertiSQL.jpg",
+        "link":"https://www.udemy.com/certificate/UC-d241550b-ab9c-4bc0-b62e-f73406c1671d/"
+    },
+    {
+        "title":"React.js Aprende a Crear un Proyecto con Webpack y Babel",
+        "Image":"certifications/CertiReact.jpg",
+        "link":"https://www.udemy.com/certificate/UC-f08d16ee-14c7-47ab-bc28-b9642b521fb7/"
+    },
+    {
+        "title":"EF SET English Certificate 58/100 (B2 Upper Intermediate)",
+        "Image":"certifications/CertiIngles.png",
+        "link":"https://cert.efset.org/xQUtuG"
+    },
+    {
+        "title":"Curso de introducción al desarrollo web: HTML y CSS (1/2)",
+        "Image":"certifications/CertiHTMLCSS1.png",
+        "link":"https://skillshop.exceedlms.com/student/award/zxvK58Uzg5MFEBzNfVdRtf2x"
+    },
+    {
+        "title":"Curso de introducción al desarrollo web: HTML y CSS (2/2)",
+        "Image":"certifications/CertiHTMLCSS2.png",
+        "link":"https://skillshop.exceedlms.com/student/award/sd2iKDgmYTV3pk625oDG6Jfu"
+    }
+    
+]

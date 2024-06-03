@@ -1,0 +1,10 @@
+[
+    {
+        "title":"Reserva Cine",
+        "imageSrc":"projects/ReservaCine.png",
+        "description":"This is a project to learn Django, SQL Server and Bootstrap using async functions to insert, update, delete and select data from the database",
+        "skills":["projectskills/django.png","projectskills/sqlserver.png","projectskills/bootstrap.png"],
+        "demo":"",
+        "source":"https://github.com/guillermoverhelst/Django-proyecto"
+    }
+]

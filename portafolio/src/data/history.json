@@ -1,0 +1,12 @@
+[
+    {
+      "role": "Trainee Python Developer",
+      "organisation": "Servicios Nutresa",
+      "startDate": "Jun, 2022",
+      "endDate": "Dec, 2022",
+      "experiences": ["Designed and developed innovative tools in Python and SAP that significantly improved the science and accuracy of internal audit processes." ,"Implemented automated solutions that allowed the complete execution of the audit plan, reducing analysis and reporting time by 40%."],
+      "imageSrc": "history/Nutresa.png",
+      "skills":[{"title":"Python","imgSrc":"experience/icons8-python-48.png"},{"title":"SAP","imgSrc":"experience/icons8-sap-48.png"},{"title":"ACL","imgSrc":"experience/acl.png"}]
+      
+    }
+]

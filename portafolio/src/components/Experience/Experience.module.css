@@ -1,0 +1,166 @@
+@import '../../vars.css';
+
+.container{
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+
+.image{
+    width: 200px;
+    height: auto;
+}
+
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.historyItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%,rgba(25,55,109,0)100%);
+    border-radius: 10px;
+    padding: 24px;
+
+}
+
+.historyItemDetails{
+    font-family: var(--font-future);
+} 
+
+.historyItemDetails h3{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+
+.historyItemDetails ul{
+    margin-top: 6px;
+    list-style-position: inside;
+    font-size: 25px;
+    list-style-type: disc;
+    margin-left: 17px;
+    
+}
+
+.skillstext{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skillsList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+  
+.skillItem {
+    flex: 0 0 calc(33.33% - 20px); /* Para que haya 3 elementos por fila */
+    margin-bottom: 20px; /* Espacio entre elementos */
+    text-align: center;
+}
+  
+.imageContainer {
+    width: 100px; /* Ancho de la imagen */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+  
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.skillTitle {
+    display: block;
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.slidercontainer{
+    margin-top: 10px;
+    display: flow;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(39, 117, 235, 0.849);
+    max-width: auto;
+    height: 95%;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: var(--font-future);
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.card img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-top-left-radius: 15px;  
+    border-top-right-radius: 15px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+
+.card a{
+    margin-top: 50px;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    font-family: var(--font-future);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 20px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width:830px){
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+    .history{
+        width: 100%;
+        gap: 9px;
+    }
+    .historyItem{
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        width: 100px;
+        height: auto;
+    }
+    .historyItemDetails ul{
+        font-size: 20px;
+    }
+}
