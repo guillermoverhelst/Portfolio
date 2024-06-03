@@ -2,9 +2,12 @@ import React from 'react';
 import { getImageUrl } from '../../utils';
 import styles from './ProjectCard.module.css';
 export const ProjectCard = ({project:{title,imageSrc,description,skills,demo,source}}) => {
-    
+  const visibilityStyle = demo === "" ? { visibility: 'hidden' } : { visibility: 'visible' };
+  
+
   return (
-    <div d className={styles.container}> 
+    
+    <div className={styles.container}> 
         <img src={getImageUrl(imageSrc)} alt={title} className={styles.image}/>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
@@ -14,8 +17,8 @@ export const ProjectCard = ({project:{title,imageSrc,description,skills,demo,sou
             })}
         </ul>
         <div className={styles.links}>
-            <a className={styles.link} href={demo} target="_blank">Demo</a>
-            <a className={styles.link} href={source} target="_blank">Source</a>
+            <a className={styles.link} href={demo} style= {visibilityStyle} target="_blank">Demo</a>
+            <a className={styles.link} href={source}  target="_blank">Source</a>
         </div>
     </div>
   );

@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
         <h2 className={styles.title}>Projects</h2>
-        <div data-aos="zoom-in" data-aos-delay="1000" className={styles.projects}>
+        <div data-aos="zoom-in" data-aos-delay="800" className={styles.projects}>
             {projects.map((project,id)=>{
                 return (
                     <ProjectCard key={id} project={project}/>
