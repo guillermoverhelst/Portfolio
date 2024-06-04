@@ -14,6 +14,6 @@
         "description":"This project is a discord bot to listen to music with friends on a server. To create this bot I used python with the discord.py library.",
         "skills":["projectskills/pythonicon.png"],
         "demo":"",
-        "source":"https://github.com/guillermoverhelst/Django-proyecto"
+        "source":"https://github.com/guillermoverhelst/MusicBot"
     }
 ]

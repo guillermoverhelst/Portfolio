@@ -46,6 +46,12 @@
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.5px;
+    transition-duration: 0.5s;
+    transition-property: text-shadow;
+}
+
+.link a:hover{
+    text-shadow: 1px 1px 2px white;
 }
 
 @media screen and (max-width:830px){
@@ -68,5 +74,7 @@
     }
     .link a{
         font-size: 20px;
+        
     }
+    
 }
