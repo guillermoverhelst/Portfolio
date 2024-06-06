@@ -2,7 +2,7 @@
     {
         "title":"Reserva Cine",
         "imageSrc":"projects/ReservaCine.png",
-        "description":"This is a project to learn Django, SQL Server and Bootstrap using async functions to insert, update, delete and select data from the database",
+        "description":"This is a project to learn Django, SQL Server and Bootstrap using async functions to insert, update, delete and select data from the database. See more on Github readme",
         "skills":["projectskills/django.png","projectskills/sqlserver.png","projectskills/bootstrap.png"],
         "demo":"",
         "source":"https://github.com/guillermoverhelst/Django-proyecto"
@@ -11,9 +11,17 @@
     {
         "title":"Discord Music Bot",
         "imageSrc":"projects/Musicbot.png",
-        "description":"This project is a discord bot to listen to music with friends on a server. To create this bot I used python with the discord.py library.",
+        "description":"This project is a discord bot to listen to music with friends on a server. To create this bot I used python with the discord.py library. See more on Github readme.",
         "skills":["projectskills/pythonicon.png"],
         "demo":"",
         "source":"https://github.com/guillermoverhelst/MusicBot"
+    },
+    {
+        "title":"Data Analysis CityBike",
+        "imageSrc":"projects/Citybike.png",
+        "description":"This project is my first steps in data analysis using python with the citybike dataset. Using pandas to handle the data, matplotlib to plot the data. See more on Github readme.",
+        "skills":["projectskills/pythonicon.png"],
+        "demo":"https://colab.research.google.com/drive/1JLyQa_5B-DXL5udHSVpeJiE-O1ZSDQjG?usp=sharing",
+        "source":"https://github.com/guillermoverhelst/Data-Analisis-City-bike"
     }
 ]

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Intro.module.css';
 import { getImageUrl } from '../../utils';
+import pdfFile from '../../../assets/intro/HV.pdf';
 export const Intro = () => {
   
   return <section  className={styles.container}>
@@ -10,9 +11,12 @@ export const Intro = () => {
           Back-End Developer with experience using Django and flask.
           Reach out if you'd like to learn more!
         </p>
-        <a href='mailto:guillermoverhelst26@gmail.com'className={styles.contactBtn}>Contact me</a>
+        <div className={styles.botonContainer}>
+        <a href='mailto:guillermoverhelst26@gmail.com'className={styles.contactBtn}>Contact me</a>       
+        <a href={pdfFile} download="HV.pdf" className={styles.contactBtn}>Resume</a>
+        </div>     
     </div>
-    <img className={styles.imgOfMe} src={getImageUrl("intro/heroImage.png")} alt = "Image of me"/>
+    <img className={styles.imgOfMe} src={getImageUrl("intro/prueba.png")} alt = "Image of me"/>
     <div className={styles.topBlur}/>
     <div className={styles.BottomBlur}/>
   </section>;
