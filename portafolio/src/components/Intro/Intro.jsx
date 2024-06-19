@@ -8,12 +8,12 @@ export const Intro = () => {
     <div data-aos="fade-right" data-aos-delay="100" className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Guillermo</h1>
         <p className={styles.description}>
-          Back-End Developer with experience using Django and flask.
+          Back-End Developer with experience using Django and Flask.
           Reach out if you'd like to learn more!
         </p>
         <div className={styles.botonContainer}>
         <a href='mailto:guillermoverhelst26@gmail.com'className={styles.contactBtn}>Contact me</a>       
-        <a href={pdfFile} download="HV.pdf" className={styles.contactBtn}>Resume</a>
+        <a href={pdfFile} download="Guillermo's Resume.pdf" className={styles.contactBtn}>Resume</a>
         </div>     
     </div>
     <img className={styles.imgOfMe} src={getImageUrl("intro/prueba.png")} alt = "Image of me"/>

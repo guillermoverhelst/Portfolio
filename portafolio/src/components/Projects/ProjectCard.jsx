@@ -16,6 +16,7 @@ export const ProjectCard = ({project:{title,imageSrc,description,skills,demo,sou
                 return <li key={id} className={styles.skill}>{<img src={getImageUrl(skill)} alt='Skill Image'/>}</li>;
             })}
         </ul>
+        <div className={styles.spacer}></div>
         <div className={styles.links}>
             <a className={styles.link} href={demo} style= {visibilityStyle} target="_blank">Demo</a>
             <a className={styles.link} href={source}  target="_blank">Source</a>
