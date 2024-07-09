@@ -23,5 +23,21 @@
         "skills":["projectskills/pythonicon.png"],
         "demo":"https://colab.research.google.com/drive/1JLyQa_5B-DXL5udHSVpeJiE-O1ZSDQjG?usp=sharing",
         "source":"https://github.com/guillermoverhelst/Data-Analisis-City-bike"
+    },
+    {
+        "title":"Flask Website",
+        "imageSrc":"projects/FlaskWebsite.jpg",
+        "description":"The purpose of this project is to demonstrate how to set up a Flask development environment and create a simple web application. It includes basic examples of routing, templating and form handling. See more on Github readme.",
+        "skills":["projectskills/flask.png","projectskills/html.png"],
+        "demo":"",
+        "source":"https://github.com/guillermoverhelst/FirstFlaskProject"
+    },
+    {
+        "title":"DataMining-MachineLearning",
+        "imageSrc":"projects/Datamining.png",
+        "description":"This project contains a collection of algorithms and techniques used in data mining and machine learning. The main goal is to provide various methods, as well as practical examples of their application. See more on Github readme.",
+        "skills":["projectskills/pythonicon.png","projectskills/mysql.png"],
+        "demo":"",
+        "source":"https://github.com/guillermoverhelst/DataMininng-MachineLearning"
     }
 ]

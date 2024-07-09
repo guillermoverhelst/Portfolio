@@ -14,7 +14,8 @@
 
 .image{
     margin-bottom: 26px; 
-    max-height: 145px;   
+    max-height: 145px;
+    height: 145px;   
 }
 
 .title{

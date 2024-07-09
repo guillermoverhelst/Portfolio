@@ -33,6 +33,15 @@
         "title":"Python Machine learning & Data mining Bootcamp",
         "Image":"certifications/PythonDatamining.jpg",
         "link":"https://www.udemy.com/certificate/UC-9547d474-5782-4ed6-bfaf-ff07e583fae3/"
+    },
+    {
+        "title":"Data Manipulation in Python: Master Python, Numpy & Pandas",
+        "Image":"certifications/DataManupulation.jpg",
+        "link":"https://www.udemy.com/certificate/UC-0089d175-0185-430b-8c0c-b40ee798321b/"
+    },
+    {
+        "title":"Flask Master Class For Beginners To Pro",
+        "Image":"certifications/FlaskMasterClass.jpg",
+        "link":"https://www.udemy.com/certificate/UC-5168502c-2212-4d34-bcf6-8af1603a4b13/"
     }
-    
 ]
